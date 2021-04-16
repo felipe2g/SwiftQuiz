@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A52B1EC82629C92100097CD7 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52B1EC72629C92100097CD7 /* QuizViewController.swift */; };
+		A52B1ECB2629C93000097CD7 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52B1ECA2629C93000097CD7 /* ResultViewController.swift */; };
+		A52B1ECE2629CD7C00097CD7 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52B1ECD2629CD7C00097CD7 /* Quiz.swift */; };
+		A52B1ED12629CD9A00097CD7 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52B1ED02629CD9A00097CD7 /* QuizManager.swift */; };
 		F9473006260C1133008CD285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9473005260C1133008CD285 /* AppDelegate.swift */; };
 		F9473008260C1133008CD285 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9473007260C1133008CD285 /* SceneDelegate.swift */; };
 		F947300A260C1133008CD285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9473009260C1133008CD285 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A52B1EC72629C92100097CD7 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = SOURCE_ROOT; };
+		A52B1ECA2629C93000097CD7 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		A52B1ECD2629CD7C00097CD7 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		A52B1ED02629CD9A00097CD7 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
 		F9473002260C1133008CD285 /* SwiftQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9473005260C1133008CD285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9473007260C1133008CD285 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +64,10 @@
 		F9473004260C1133008CD285 /* SwiftQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				A52B1EC72629C92100097CD7 /* QuizViewController.swift */,
+				A52B1ECD2629CD7C00097CD7 /* Quiz.swift */,
+				A52B1ED02629CD9A00097CD7 /* QuizManager.swift */,
+				A52B1ECA2629C93000097CD7 /* ResultViewController.swift */,
 				F9473005260C1133008CD285 /* AppDelegate.swift */,
 				F9473007260C1133008CD285 /* SceneDelegate.swift */,
 				F9473009260C1133008CD285 /* ViewController.swift */,
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A52B1ECB2629C93000097CD7 /* ResultViewController.swift in Sources */,
 				F947300A260C1133008CD285 /* ViewController.swift in Sources */,
+				A52B1ECE2629CD7C00097CD7 /* Quiz.swift in Sources */,
+				A52B1ED12629CD9A00097CD7 /* QuizManager.swift in Sources */,
 				F9473006260C1133008CD285 /* AppDelegate.swift in Sources */,
 				F9473008260C1133008CD285 /* SceneDelegate.swift in Sources */,
+				A52B1EC82629C92100097CD7 /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
