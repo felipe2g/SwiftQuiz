@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,15 +13,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="y8G-79-7TV">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYb-TT-RCs">
-                                <rect key="frame" x="20" y="566" width="375" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYb-TT-RCs">
+                                <rect key="frame" x="122.5" y="692" width="169" height="60"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                 <state key="normal" title="Começar">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -35,9 +34,15 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="y8G-79-7TV" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="2nT-Ze-Izq"/>
+                            <constraint firstItem="y8G-79-7TV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ANX-ED-p6b"/>
+                            <constraint firstItem="nYb-TT-RCs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JJR-TM-gy7"/>
                             <constraint firstItem="y8G-79-7TV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="N21-ez-dKz"/>
+                            <constraint firstItem="y8G-79-7TV" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Th9-yr-NTF"/>
+                            <constraint firstItem="y8G-79-7TV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Vhf-Cs-a1Z"/>
                             <constraint firstItem="y8G-79-7TV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WEl-VQ-hCO"/>
                             <constraint firstAttribute="bottom" secondItem="y8G-79-7TV" secondAttribute="bottom" id="XhE-38-9d3"/>
+                            <constraint firstItem="y8G-79-7TV" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Z08-Oz-T71"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nYb-TT-RCs" secondAttribute="bottom" constant="110" id="eX2-Nv-UUv"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -50,7 +55,7 @@
             <objects>
                 <viewController id="DA0-Ag-Y0d" customClass="QuizViewController" customModule="SwiftQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E6c-uk-vXc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GIZ-c1-a58">
@@ -133,7 +138,7 @@
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pyW-8Q-GCD">
-                                <rect key="frame" x="20" y="98" width="374" height="344"/>
+                                <rect key="frame" x="20" y="110" width="374" height="332"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -151,7 +156,7 @@
                         <outletCollection property="btAnswer" destination="avZ-w9-Mv8" collectionClass="NSMutableArray" id="BGX-N2-ybE"/>
                         <outletCollection property="btAnswer" destination="Xr3-8H-NxE" collectionClass="NSMutableArray" id="qMn-py-KAE"/>
                         <outletCollection property="btAnswer" destination="grK-3n-tbO" collectionClass="NSMutableArray" id="NVh-dt-84d"/>
-                        <segue destination="6uZ-Lq-qJq" kind="show" id="YDh-HD-T6X"/>
+                        <segue destination="6uZ-Lq-qJq" kind="show" identifier="resultSegue" id="YDh-HD-T6X"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xqr-PS-5Xz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -163,7 +168,7 @@
             <objects>
                 <viewController id="6uZ-Lq-qJq" customClass="ResultViewController" customModule="SwiftQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s5G-cJ-u1o">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resultado" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AAD-Dz-gQr">
@@ -231,7 +236,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="LaunchScreen" width="414" height="736"/>
+        <image name="LaunchScreen" width="320" height="568"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
