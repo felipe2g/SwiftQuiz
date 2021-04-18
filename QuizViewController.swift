@@ -21,8 +21,8 @@ class QuizViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         
         viTime.frame.size.width = view.frame.size.width
         
@@ -33,9 +33,8 @@ class QuizViewController: UIViewController {
         }
 
         getNewQuiz()
-        
     }
-    
+
     func getNewQuiz() {
         quizManager.refreshQuiz()
         

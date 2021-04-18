@@ -26,7 +26,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="DA0-Ag-Y0d" kind="show" id="wmV-Cd-WHq"/>
+                                    <segue destination="DA0-Ag-Y0d" kind="push" id="wmV-Cd-WHq"/>
                                 </connections>
                             </button>
                         </subviews>
